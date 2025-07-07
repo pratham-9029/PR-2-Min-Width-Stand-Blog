@@ -1,0 +1,66 @@
+/* SM */
+@media(min-width:576px)
+{
+    .container{
+        max-width: 540px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+    .col-sm-3{
+        width: 100%;
+    }
+}
+
+/* MD */
+@media(min-width:768px)
+{
+    .container{
+        max-width: 720px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+    
+    .col-md-3{
+        
+    }
+}
+
+/* LG */
+@media(min-width:992px)
+{
+    .container{
+        max-width: 960px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+    .col-lg-3{
+        
+    }
+}
+
+/* XL */
+@media(min-width:1200px)
+{
+    .container{
+        max-width: 1140px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+    .col-xl-3{
+        
+    }
+}
+
+/* XXL */
+@media(min-width:1400px)
+{
+    .container{
+        max-width: 1320px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+    .col-xxl-3{
+
+    }
+    
+}
