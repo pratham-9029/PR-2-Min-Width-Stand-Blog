@@ -511,8 +511,7 @@
     <!-- Blog Post Section End -->
     <!-- Footer Starts -->
     <footer>
-        <div
-            class="container ">
+        <div class="container ">
             <div class="row">
                 <div class="col">
                     <div class="social-icons">
@@ -554,8 +553,8 @@
     <!-- Initialize Swiper -->
     <script>
         var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 3,
-            spaceBetween: 30,
+            slidesPerView: 1,
+            spaceBetween: 20,
             centeredSlides: true,
             loop: true,
             autoplay: {
@@ -570,6 +569,20 @@
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
             },
+            breakpoints: {
+                567: {
+                    slidesPerView:1,
+                    spaceBetween:5,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 10
+                },
+                992: {
+                    slidesPerView: 3,
+                    spaceBetween: 15
+                }
+            }
         });
     </script>
 </body>
